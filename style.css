@@ -1,0 +1,120 @@
+body {
+    background-image: url(asset/flo.avif);
+    background-repeat: no-repeat;
+    /* background: radial-gradient(#ca69b0df, #b476ba); */
+    height: 400%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+span{
+    font-family:cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+    
+
+.cal-box {
+    border-radius: 7px;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 1px 2px 20px 7px #c5c2c2cf;
+}
+
+.head {
+    background-color: darkmagenta;
+    padding: 15px 20px;
+    color: #f7f7f7;
+}
+
+.head p {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.head-1 {
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.left-icon {
+    float: left;
+
+}
+
+.right-icon {
+    float: right;
+}
+
+.name {
+
+    color: rgb(221, 126, 215);
+    font-style: normal;
+    text-align: center;
+
+}
+
+.days {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.d {
+    float: left;
+    width: 14.28%;
+    color: #c82525;
+
+}
+
+.no {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.n {
+    float: left;
+    width: 14.28%;
+     color: hsl(0, 2%, 56%); 
+    visibility: hidden;
+    
+
+}
+
+.n-1 {
+    float: left;
+    width: 14.28%;
+    color: #8a8989;
+    font-weight: bold;
+}
+
+.active {
+    color: #e0d6d6;
+    background-color: #e94ce779;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.n-1:hover {
+    color: #a407ac;
+    cursor: pointer;
+}
